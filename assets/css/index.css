@@ -1,0 +1,30 @@
+.photo-pers{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin-bottom:28px;
+    border: 3px #fff solid;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.logo-pers{
+    width: 60px;
+    height:40px;
+}
+#submit-email {
+    width: 100%;
+}
+
+@media screen and (max-width:754px) {
+    .logo-pers{
+        position: relative;
+        bottom:9px;
+    }
+}
