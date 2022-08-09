@@ -1,0 +1,88 @@
+.box-nav-bar {
+  background: var(--background);
+  color: var(--color-font-primary);
+  position: fixed;
+  height: 100vh;
+  width: 180px;
+  z-index: 9999;
+  transition: all 400ms;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  padding-top: 30px;
+}
+
+/* Caja de la lista de opciones */
+.box-nav-bar,
+.box-options-nav-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.box-options-nav-bar {
+  width: 100%;
+}
+
+.button-drop-nav-bar-hidden {
+  width: 40px;
+  height: 40px;
+  padding: 7px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 400ms;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  margin-bottom: 40px;
+}
+
+.button-drop-nav-bar-hidden:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.line-svg-icon-button-hidden {
+  fill: var(--background-Two);
+}
+
+/* Opciones del menu */
+.item-nav-bar {
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 400ms;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+}
+.item-nav-bar:hover {
+  background-color: var(--background-transparent-Two);
+  color: var(--background);
+}
+
+.text-option-nav-bar {
+  font-size: 20px;
+  font-family: var(--font-Relaway);
+  color: var(--background-Two);
+}
